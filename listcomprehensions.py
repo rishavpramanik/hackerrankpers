@@ -1,0 +1,5 @@
+x = int(input())
+y = int(input())
+z = int(input())
+n = int(input())
+print([[q,w,r] for q in range(0,x+1) for w in range(0,y+1) for r in range(0,z+1) if q+w+r!=n ])
